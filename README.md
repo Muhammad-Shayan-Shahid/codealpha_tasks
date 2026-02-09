@@ -52,7 +52,8 @@ image-gallery/
 ## ▶️ How to Run Locally
 1. Download or clone the repository
    ```
-   git clone https://github.com/your-username/image-gallery.git
+   git clone https://github.com/Muhammad-Shayan-Shahid/codealpha_tasks.git
+   
    ```
 2. Open the folder
 3. Double-click `index.html`
