@@ -98,7 +98,7 @@ A personal portfolio website to showcase skills and projects.
 1. Clone this repository:
 
    ```bash
-   git clone <your-repository-link>
+   https://github.com/Muhammad-Shayan-Shahid/codealpha_tasks.git
    ```
 2. Open the project folder.
 3. Open `index.html` in your browser
@@ -112,16 +112,6 @@ A personal portfolio website to showcase skills and projects.
 
 ---
 
-## 🚀 Deployment
-
-Projects can be deployed using:
-
-* GitHub Pages
-* Netlify
-
-(Deployment links can be added here.)
-
----
 
 ## 🏆 Internship Benefits Received
 
@@ -156,7 +146,7 @@ I sincerely thank **CodeAlpha** for providing this opportunity and guidance. The
 
 If you would like to connect or discuss projects:
 
-* **GitHub:** <your-github-profile-link>
+* **GitHub:** [https://github.com/Muhammad-Shayan-Shahid]
 * **LinkedIn:** <your-linkedin-profile-link>
 * **Email:** <your-email>
 
