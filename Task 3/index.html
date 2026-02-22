@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Potfolio <span>Site</span></div>
+      <div class="links" id="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger" aria-label="menu">
+        <div></div><div></div><div></div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero container">
+    <div class="hero-grid">
+      <div class="reveal">
+        <h1 class="title">Hi, I’m <b>Shayan Shahid</b></h1>
+        <p class="subtitle">Frontend Web Developer (Learning Backend). I build clean, responsive and interactive websites using HTML, CSS and JavaScript.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Contact Me</a>
+          <a class="btn" href="#skills">Analyze Skills</a>
+        </div>
+      </div>
+      <div class="avatar reveal"><img src="/images/Me.jpg" alt="" style="width: 300px; height: 300px; border-radius:50%;"></div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="muted reveal">I am a passionate developer focused on improving my problem-solving and JavaScript skills. I enjoy creating small projects and learning by building. Currently exploring Node.js and MongoDB to become a full‑stack developer.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills">
+        <div class="chip reveal">HTML5</div>
+        <div class="chip reveal">CSS3</div>
+        <div class="chip reveal">JavaScript</div>
+        <div class="chip reveal">Git & GitHub</div>
+        <div class="chip reveal">Responsive Design</div>
+        <div class="chip reveal">DOM Manipulation</div>
+        <div class="chip reveal">Basic Node.js</div>
+        <div class="chip reveal">MongoDB (Learning)</div>
+      </div>
+    </div>
+  </section>
+
+ <section id="projects">
+  <div class="container">
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="grid">
+
+      <!-- Calculator App -->
+      <article class="card reveal">
+        <div class="thumb">
+          <img src="/images/Calculater.png" alt="Calculator App Screenshot">
+        </div>
+        <div class="card-body">
+          <h3>Calculator App</h3>
+          <p class="muted">Basic calculator supporting +, −, ×, ÷ with keyboard input.</p>
+          <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p><a class="btn" href="https://calculator-web-app-lime.vercel.app/" target="_blank">Live Demo</a></p>
+        </div>
+      </article>
+
+      <!-- Tourism Website Clone -->
+      <article class="card reveal">
+        <div class="thumb">
+          <img src="/images/Tourism_Website.png" alt="Tourism Website Screenshot">
+        </div>
+        <div class="card-body">
+          <h3>Tourism Website</h3>
+          <p class="muted">Responsive tourism site iteractive UI, locations, and gallery features.</p>
+          <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p><a class="btn" href="https://tourism-website-gilt.vercel.app/" target="_blank">Live Demo</a></p>
+        </div>
+      </article>
+
+      <!-- Instagram Clone / Other Good Clone -->
+    <article class="card reveal">
+  <div class="thumb">
+    <img src="/images//Two Good Co.png " alt="Two Good Co Clone Screenshot">
+  </div>
+  <div class="card-body">
+    <h3>TWO GOOD CO. Clone</h3>
+    <p class="muted">
+      Two Good Co clone created with animations and professional UI.
+    </p>
+    <div>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JS</span>
+    </div>
+    <p>
+      <a class="btn" href="https://two-good-co-websiste.vercel.app/" target="_blank">
+        Live Demo
+      </a>
+    </p>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <div class="contact">
+        <form class="reveal" onsubmit="sendMail(event)">
+          <div class="field">
+            <label>Name</label>
+            <input id="name" required placeholder="Your name" />
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input id="email" type="email" required placeholder="your@email.com" />
+          </div>
+          <div class="field">
+            <label>Message</label>
+            <textarea id="message" required placeholder="Write your message..."></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="note">This opens your email app using mailto.</p>
+        </form>
+        <div class="reveal">
+          <p class="muted">You can also reach me at:</p>
+          <p><i class="fa-solid fa-envelope"></i> 
+   <a href="https://mail.google.com/mail/?view=cm&to=msshahid23052006@gmail.com" target="_blank">
+     msshahid23052006@gmail.com
+   </a>
+</p>
+
+<p><i class="fa-brands fa-github"></i> 
+   <a href="https://github.com/Muhammad-Shayan-Shahid" target="_blank">GitHub</a></p>
+
+<p><i class="fa-brands fa-linkedin"></i> 
+   <a href="https://www.linkedin.com/in/shayan-shahid-2b59513a8/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+     <div class="container footer-row">
+      <span>© <span id="year"></span></span>
+      <span class="footer-brand">Portfolio <span>Site</span></span>
+      <span>• Built with HTML, CSS & JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
