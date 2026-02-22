@@ -1,9 +1,9 @@
 # CodeAlpha Frontend Development Internship
 
-**Intern:** Shayan Shahid
-**Organization:** CodeAlpha — [https://www.codealpha.tech](https://www.codealpha.tech)
-**Domain:** Frontend Development
-**Program Type:** Hands‑on Project Internship
+- **Intern:** Shayan Shahid
+- **Organization:** CodeAlpha — [https://www.codealpha.tech](https://www.codealpha.tech)
+- **Domain:** Frontend Development
+- **Program Type:** Hands‑on Project Internship
 
 ---
 
@@ -106,12 +106,6 @@ A personal portfolio website to showcase skills and projects.
 
 ---
 
-## 📸 Screenshots
-
-*Add project screenshots here (recommended for better presentation).*
-
----
-
 
 ## 🏆 Internship Benefits Received
 
@@ -146,9 +140,9 @@ I sincerely thank **CodeAlpha** for providing this opportunity and guidance. The
 
 If you would like to connect or discuss projects:
 
-* **GitHub:** [https://github.com/Muhammad-Shayan-Shahid]
-* **LinkedIn:** <your-linkedin-profile-link>
-* **Email:** <your-email>
+* **GitHub:** https://github.com/Muhammad-Shayan-Shahid
+* **LinkedIn:** https://www.linkedin.com/in/shayan-shahid-2b59513a8/
+* **Email:** https://mail.google.com/mail/u/0/?to=msshahid23052006@gmail.com&fs=1&tf=cm
 
 ---
 
